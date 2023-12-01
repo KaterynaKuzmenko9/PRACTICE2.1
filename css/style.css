@@ -1,0 +1,29 @@
+
+
+
+
+.container{
+    max-width: 1170px;
+    border-bottom:1px solid black;
+    margin: 0 auto ;
+}
+
+
+.menu{
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+
+
+
+.main-title{
+    padding: 30px;
+    border: 2px solid red;
+    width: 400px;
+
+}
+
+.about__description{
+    border: 2px solid green;
+}
