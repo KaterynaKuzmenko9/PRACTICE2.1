@@ -6,8 +6,9 @@
 
 .container{
     max-width: 1170px;
-    border-bottom:1px solid black;
+    /* border-bottom:1px solid black; */
     margin: 0 auto ;
+   
 }
 
 
@@ -19,17 +20,25 @@ text-align: center;
 
 
 
+.number{
+    color: red;
+    text-decoration: none;
+}
+
+
+
 .main-title{
     padding: 30px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 400px;
 
 }
 
 .about__description{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -39,12 +48,71 @@ text-align: center;
     padding: 30px 0 30px 150px;
     height: 560px;
     box-shadow: 0px 6px 10px  #000;
-
-
 }
 
 .about__descr__right{
-    border: 2px solid gold;
     width: 675px;
-    padding: 30px;
+    padding: 20px;
+    line-height: 70px;
+    position: relative;
+    
+}
+
+.about__descr__right::after{
+    content: '';
+    display: block;
+    width: 500px;
+    height: 330px;
+    /* background-color: red; */
+    /* border: 2px solid brown; */
+    box-shadow: 0px 6px 5px #000;
+    position: absolute;
+    bottom:0;
+    right:0;
+    z-index: -1;
+}
+
+
+.bottom-site{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    border: 1px solid #000;
+}
+
+.socials{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 190px;
+    height: 30px;
+   
+}
+
+.socials a{
+    width:20px;
+    height:20px;
+    /* background-color: lightgray; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.inst{
+    background-image: url("/img/instagram.png");
+}
+
+.fb{
+    background-image: url("/img/fb\ 2.png");
+}
+
+.email{
+    background-image: url("/img/Group.png");
+    
 }
