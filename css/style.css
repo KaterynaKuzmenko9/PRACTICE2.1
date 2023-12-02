@@ -3,25 +3,37 @@
     box-sizing: border-box;
 }
 
+nav{
+    font-family: Montserrat;
+}
 
 .container{
     max-width: 1170px;
+
     /* border-bottom:1px solid black; */
     margin: 0 auto ;
    
 }
+ 
+nav{
 
+}
+h1{
+    color:#232323;
+    
+
+}
 
 .menu{
 display: flex;
 justify-content: space-between;
-text-align: center;
+align-items: center;
 }
 
 
 
 .number{
-    color: red;
+    color:#A52424;
     text-decoration: none;
 }
 
