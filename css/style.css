@@ -1,5 +1,7 @@
 
-
+*{
+    box-sizing: border-box;
+}
 
 
 .container{
@@ -26,4 +28,23 @@ text-align: center;
 
 .about__description{
     border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about__photo__left{
+    /* border: 2px solid blue; */
+    width: 375px;
+    padding: 30px 0 30px 150px;
+    height: 560px;
+    box-shadow: 0px 6px 10px  #000;
+
+
+}
+
+.about__descr__right{
+    border: 2px solid gold;
+    width: 675px;
+    padding: 30px;
 }
